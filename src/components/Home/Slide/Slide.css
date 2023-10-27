@@ -1,0 +1,247 @@
+.slide-text {
+    display: flex;
+    margin-left: 200px;
+}
+.text {
+    margin-left: 20px; 
+}
+.admin {
+    display: flex;
+}
+.avt-admin{
+    width: 200px;
+    height: 300px;
+    border: ridge;
+    padding: 5px;
+    float: left;
+    /* margin-right: 20px; */
+    margin-left: 30px;
+    display: block;
+}
+.main-content {
+    flex: 1;
+}
+.user_admin_email{
+    text-align: center;
+}
+.user_admin_avt{
+    width: 110px;
+    height: auto;
+    padding-left: 20%;
+}
+.admin_tab{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+.admin_tab_create{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border: 2px ridge blueviolet;
+    /* background-color: blanchedalmond; */
+}
+.all-item {
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.all-item_admin {
+    display: flex;
+    padding-left: 20px; 
+    margin-top: 0px;
+    
+}
+.item-three {
+    width: 890px;
+    /* display: flex;  */
+    margin-top: 20px;
+}
+.item-one {
+    margin-left: 30px;
+    float: left;
+    margin-top: 25px;
+}
+
+
+
+.p-noresultsearch {
+    text-align: center;
+    justify-content: center;
+}
+.page {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn-page{  
+    margin-right: 10px;
+    height: 20px;
+}
+
+.tittle-item {
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.tittle-item {
+    padding-left:220px;
+}
+.component1 {
+    margin-top: 20px;
+}
+
+.img-back {
+    /* display: block; */
+    width: auto;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.img-next {
+    width: auto;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.all-circle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    margin-left: 10px;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+  }
+  
+  .header{
+    display: flex;
+    vertical-align : middle;
+    width: auto;
+    height: 120px;
+    
+
+}
+.img-noti {
+    width: auto;
+    height: 20px ;
+    margin-left: 800px;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.img-setting {
+    width: auto;
+    height: 20px ;
+    margin-left: 20px;
+    margin-top: 60px;
+   
+}
+.img-search {
+    width: auto;
+    height: 20px;
+
+}
+.header__logo-img {
+    width: auto;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.btn-search {
+    width: 40px;
+    height:25px;
+}
+
+
+
+/* Create exams */
+.create_exam{
+    width: 890px;
+}
+.div_1{
+    float: left;
+    margin-left: 30px;
+    width: 46%;
+}
+.input_div_1{
+    width: 100%;
+    height: 25px;
+}
+.input_div_12{
+    width: 103%;
+    height: 25px;
+    /* background-color: beige; */
+}
+.div_1_2{
+    margin-left: 30px;
+    width: 850px;
+}
+.input_div_1_2{
+    width: 100%;
+    height: 90px;
+}
+.input_div_2_1{
+    width: 100%;
+    height: 90px;
+   
+}
+.div_2 {
+     margin-left: 30px;
+}
+/* /////////////////////// */
+.quizz {
+    width: 846px;
+    margin-top: 15px;
+    float: left;
+    border: ridge;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+.quizz_all{
+    margin-top: 10px;
+    float: left;
+}
+.quizz_text {
+    width: 830px;
+    height: 45px;
+}
+.quizz_options_text {
+    width: 90%;
+}
+.quizz_options {
+    float: left;
+    margin-top: 10px;
+    /* display: block; */
+    float: left;
+    width: 45%;  
+    margin-left: 15px;  
+}
+.quizz_btn_remove {
+    padding-left: 600px;
+    float: left;
+    height: 40px;
+}
+.btn_quizz {
+    margin-top: 150px;
+}
+.quizz_btn_add {
+    float: left;
+    height: 40px;
+    margin-left: 10px;
+}
+.btn_add_quizz {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.btn_submit{
+    margin-left: 400px;
+}

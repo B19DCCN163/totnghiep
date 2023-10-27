@@ -1,0 +1,12 @@
+.header_register{
+    margin-top: 100px;
+    width: 850px;
+    height: 520px;   
+    margin-left: 30px;
+}
+.header{
+    font-weight: bold;
+}
+.btn-dang-ki {
+    display: flex;
+}

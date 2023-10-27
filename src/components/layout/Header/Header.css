@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    vertical-align : middle;
+    width: auto;
+    height: 120px;    
+
+}
+.img-noti {
+    width: auto;
+    height: 20px ;
+    margin-left: 800px;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.img-setting {
+    width: auto;
+    height: 20px ;
+    margin-left: 20px;
+    margin-top: 60px;
+   
+}
+.img-user {
+    width: auto;
+    height: 20px ;
+    margin-left: 20px;
+    margin-top: 60px;
+    display: block;
+    margin-bottom: 10px;
+}
+.img-search {
+    width: auto;
+    height: 20px;
+
+}
+.header__logo-img {
+    width: auto;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.btn-search {
+    width: 40px;
+    height:25px;
+}
+
+/* .all-btn-logout{
+} */
+.btn-logout {
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin-top: 2px;
+}

@@ -1,0 +1,24 @@
+.header_login {
+    margin-top: 100px;
+    width: 850px;
+    height: 520px;   
+    margin-left: 30px;
+
+}
+.btn-dang-nhap {
+    margin-top: 70px;
+    margin-left: 80px;
+    display: flex;
+    
+}
+.remember {
+    text-align: center;
+    display: flex;
+    float: left;
+}
+.forgot_password {
+    margin-left: 30px;
+}
+.header{
+    font-weight: bold;
+}

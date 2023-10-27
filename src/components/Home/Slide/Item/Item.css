@@ -1,0 +1,35 @@
+
+.item {
+    width: 250px;
+    height: 360px;
+    border: ridge;
+    padding: 5px;
+}
+.img-item {
+    width: 250px;
+    height: 200px;
+}
+.text-item {
+    font-weight: bold;
+    font-size: 20px;
+}
+.label-item {
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 10px;
+    width: 20px;
+}
+.rating-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-star {
+    color: #ccc;
+    font-size: 24px;
+  }
+  
+  .rating-star.active {
+    color: gold;
+  }
+  

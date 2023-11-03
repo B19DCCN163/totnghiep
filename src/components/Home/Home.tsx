@@ -10,7 +10,7 @@ import user from './../layout/img/user.png'
 // import { fakeDataAdmin } from './Slide/fakeData';
 // import UserAdmin from './Slide/Admin/UserAdmin';
 // import Static from './Slide/Admin/Static';
-// import Create_Exams from './Slide/Admin/Create_Exams';
+import Create_Exams from './Slide/Admin/Create_Exams';
 // import { User } from './../User/DataUser'
 import SearchResult from './Slide/SearchResult/SearchResult';
 
@@ -33,17 +33,17 @@ function Home() {
           </div>
           <div className='tab_admin'>
             <button className='admin_tab' onClick={() => {setSelectedAdminTab('static'); setcheckSearch('home_page')}}>Static</button>
-            <button className='admin_tab' onClick={() => {setSelectedAdminTab('user'); setcheckSearch('home_page')}}>User</button>
-            <button className='admin_tab' onClick={() => {setSelectedAdminTab('exams'); setcheckSearch('home_page')}}>Exams</button>
-            <button className='admin_tab_create' onClick={() => {setSelectedAdminTab('create_exams'); setcheckSearch('home_page')}}>Create Exam</button>
+            {/* <button className='admin_tab' onClick={() => {setSelectedAdminTab('user'); setcheckSearch('home_page')}}>User</button> */}
+            <button className='admin_tab' onClick={() => {setSelectedAdminTab('exams'); setcheckSearch('home_page')}}>Product</button>
+            <button className='admin_tab_create' onClick={() => {setSelectedAdminTab('create_exams'); setcheckSearch('home_page')}}>Create Product</button>
           </div>
         </div>
         {checkSearch === 'search' && <SearchResult />}
         {checkSearch === 'home_page' && <div>
-          {/* {selectedAdminTab === 'user' && <UserAdmin />} */}
-          {/* {selectedAdminTab === 'static' && <Static />}
+          {/* {selectedAdminTab === 'user' && <UserAdmin />}
+          {selectedAdminTab === 'static' && <Static />} */}
           {selectedAdminTab === 'create_exams' && <Create_Exams />}
-          {selectedAdminTab === 'exams' && <Exams />} */}
+          {/* {selectedAdminTab === 'exams' && <Exams />} */}
         </div>}
       </div>} 
       {
